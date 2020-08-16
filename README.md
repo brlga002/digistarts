@@ -62,32 +62,7 @@ A estrutura de arquivos está da seguinte maneira:
 
 ```bash
 digistarts
-├── .eslintrc.json
-├── .gitignore
-├── Insomnia_routers.json
-├── jest.config.js
-├── package.json
-├── prettier.config.js
-├── README.md
-├── src
-│   ├── app.js
-│   ├── controllers
-│   │   └── mathController.js
-│   ├── index.js
-│   ├── middleware
-│   │   └── allowDigits.js
-│   ├── routes
-│   │   └── mathRouter.js
-│   └── utils
-│       └── leftPad.js
-├── tests
-│   ├── integration
-│   │   ├── messagesErro.spec.js
-│   │   └── operations.spec.js
-│   └── unit
-│       └── gerateLeftPad.spec.js
-└── .vscode
-    └── settings.json
+
 
 ```
 
@@ -97,6 +72,29 @@ Para executar os testes unitários e de integração rode o comando:
 
 ```bash
 $ npm test
+```
+
+## Demonstração da aplicação
+
+Esta API usa POST solicitação para se comunicar e códigos de resposta HTTP para identificar o status e os erros. Todas as respostas vêm em JSON padrão. Todas as solicitações devem incluir um content-typede application/json e o corpo deve ser um JSON válido.
+
+Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online na hospedagem heroku <https://digistarts.herokuapp.com>. o endereço do servidor será chamado no exemplo de Rotas base_url
+
+### Rotas
+
+- base_url/soma
+- base_url/subtracao
+- base_url/multiplicacao
+- base_url/divisao
+- base_url/resto
+
+Todas as rotas aceitam o exigem os campos fistNumber e secondNumber:
+
+```bash
+{
+	"fistNumber":"10000000",
+	"secondNumber":"100000000"
+}
 ```
 
 ## Tecnologias
