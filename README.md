@@ -7,13 +7,13 @@ Teste para vaga Desenvolvedor Home Office na Digistarts
 <!--ts-->
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Descrição](#Descrição)   
-   * [Pre Requisitos](#pre-requisitos)
+   * [Pre Requisitos](#pré-requisitos)
    * [Rodando o Back End](#rodando-o-back-end)
    * [Estrutura de Arquivos](#estrutura-de-arquivos)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)   
    * [License](#license)      
-   * [autor](#autor)
+   * [Autor](#autor)
 <!--te-->
 
 ## Descrição
@@ -30,7 +30,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## 🎲 Rodando o Back End (servidor)
+## Rodando o Back End
 
 ```bash
 # Clone este repositório
@@ -57,21 +57,34 @@ A estrutura de arquivos está da seguinte maneira:
 
 ```bash
 digistarts
+├── .eslintrc.json
+├── .gitignore
 ├── Insomnia_routers.json
+├── jest.config.js
 ├── package.json
+├── package-lock.json
 ├── prettier.config.js
 ├── README.md
-└── src
-    ├── app.js
-    ├── controllers
-    │   └── mathController.js
-    ├── index.js
-    ├── middleware
-    │   └── allowDigits.js
-    ├── routes
-    │   └── mathRouter.js
-    └── utils
-        └── leftPad.js
+├── src
+│   ├── app.js
+│   ├── controllers
+│   │   └── mathController.js
+│   ├── index.js
+│   ├── middleware
+│   │   └── allowDigits.js
+│   ├── routes
+│   │   └── mathRouter.js
+│   └── utils
+│       └── leftPad.js
+├── tests
+│   ├── integration
+│   │   ├── messagesErro.spec.js
+│   │   └── operations.spec.js
+│   └── unit
+│       └── gerateLeftPad.spec.js
+└── .vscode
+    └── settings.json
+
 ```
 ## testes
 ## tecnologias
