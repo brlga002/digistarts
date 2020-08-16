@@ -2,6 +2,20 @@
 
 Teste para vaga Desenvolvedor Home Office na Digistarts
 
+## Tabela de Conteudo
+
+<!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Descrição](#Descrição)   
+   * [Pre Requisitos](#pré-requisitos)
+   * [Rodando o Back End](#rodando-o-back-end)
+   * [Estrutura de Arquivos](#estrutura-de-arquivos)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)   
+   * [License](#license)      
+   * [Autor](#autor)
+<!--te-->
+
 ## Descrição
 
 Problema da operação entre números binários:
@@ -16,11 +30,11 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## 🎲 Rodando o Back End (servidor)
+## Rodando o Back End
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/brlga002/digistarts.git>
+$ git clone https://github.com/brlga002/digistarts.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd digistarts
@@ -34,7 +48,7 @@ $ npm run dev
 # Ou execute aplicação em modo de produção
 $ npm run start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
 
 ## Estrutura de Arquivos
@@ -43,26 +57,76 @@ A estrutura de arquivos está da seguinte maneira:
 
 ```bash
 digistarts
+├── .eslintrc.json
+├── .gitignore
 ├── Insomnia_routers.json
+├── jest.config.js
 ├── package.json
 ├── prettier.config.js
 ├── README.md
-└── src
-    ├── app.js
-    ├── controllers
-    │   └── mathController.js
-    ├── index.js
-    ├── middleware
-    │   └── allowDigits.js
-    ├── routes
-    │   └── mathRouter.js
-    └── utils
-        └── leftPad.js
+├── src
+│   ├── app.js
+│   ├── controllers
+│   │   └── mathController.js
+│   ├── index.js
+│   ├── middleware
+│   │   └── allowDigits.js
+│   ├── routes
+│   │   └── mathRouter.js
+│   └── utils
+│       └── leftPad.js
+├── tests
+│   ├── integration
+│   │   ├── messagesErro.spec.js
+│   │   └── operations.spec.js
+│   └── unit
+│       └── gerateLeftPad.spec.js
+└── .vscode
+    └── settings.json
+
 ```
+## Testes
+
+Para executar os testes unitários e de integração rode o comando:
+
+```bash
+$ npm test
+```
+
+## Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Celebrate](https://github.com/arb/celebrate)
+- [Jest](https://jestjs.io/docs/en/getting-started)
+- [SuperTest](https://www.npmjs.com/package/supertest)
+- [Insomnia Core](https://insomnia.rest/download/)
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT License
+
+Copyright (c) <2020> <Gabriel Fernandes Lima>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Autor
 
