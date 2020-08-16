@@ -62,7 +62,6 @@ digistarts
 ├── Insomnia_routers.json
 ├── jest.config.js
 ├── package.json
-├── package-lock.json
 ├── prettier.config.js
 ├── README.md
 ├── src
@@ -86,12 +85,48 @@ digistarts
     └── settings.json
 
 ```
-## testes
-## tecnologias
+## Testes
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/brlga002/digistarts.git
+
+```
+
+## Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Celebrate](https://github.com/arb/celebrate)
+- [Jest](https://jestjs.io/docs/en/getting-started)
+- [SuperTest](https://www.npmjs.com/package/supertest)
+- [Insomnia Core](https://insomnia.rest/download/)
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT License
+
+Copyright (c) <2020> <Gabriel Lima>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Autor
 
