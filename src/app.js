@@ -1,10 +1,9 @@
 const express = require('express');
-const app = express();
-
-const { errors } = require('celebrate');
 const cors = require('cors');
-
+const { errors } = require('celebrate');
 const mathRouter = require('./routes/mathRouter');
+
+const app = express();
 
 app.use(cors());
 app.use(express.json());
