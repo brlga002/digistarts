@@ -2,6 +2,20 @@
 
 Teste para vaga Desenvolvedor Home Office na Digistarts
 
+## Tabela de Conteudo
+
+<!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Descrição](#Descrição)   
+   * [Pre Requisitos](#pre-requisitos)
+   * [Rodando o Back End](#rodando-o-back-end)
+   * [Estrutura de Arquivos](#estrutura-de-arquivos)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)   
+   * [License](#license)      
+   * [autor](#autor)
+<!--te-->
+
 ## Descrição
 
 Problema da operação entre números binários:
@@ -59,6 +73,8 @@ digistarts
     └── utils
         └── leftPad.js
 ```
+## testes
+## tecnologias
 
 ## License
 
