@@ -34,7 +34,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/brlga002/digistarts.git>
+$ git clone https://github.com/brlga002/digistarts.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd digistarts
@@ -48,7 +48,7 @@ $ npm run dev
 # Ou execute aplicação em modo de produção
 $ npm run start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
 
 ## Estrutura de Arquivos
