@@ -5,15 +5,16 @@ Teste para vaga Desenvolvedor Home Office na Digistarts
 ## Tabela de Conteudo
 
 <!--ts-->
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Descrição](#Descrição)   
-   * [Pre Requisitos](#pré-requisitos)
-   * [Rodando o Back End](#rodando-o-back-end)
-   * [Estrutura de Arquivos](#estrutura-de-arquivos)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)   
-   * [License](#license)      
-   * [Autor](#autor)
+
+- [Tabela de Conteudo](#tabela-de-conteudo)
+- [Descrição](#Descrição)
+- [Pre Requisitos](#pré-requisitos)
+- [Rodando o Back End](#rodando-o-back-end)
+- [Estrutura de Arquivos](#estrutura-de-arquivos)
+- [Tests](#testes)
+- [Tecnologias](#tecnologias)
+- [License](#license)
+- [Autor](#autor)
 <!--te-->
 
 ## Descrição
@@ -23,6 +24,10 @@ Faça um programa capaz de operar dois números de 0-255 informados em binário.
 A resposta deve ser dada também em binário.
 Deve-se aceitar os operadores abaixo:
 +,-,\*,/,%
+
+<h1 align="center">
+  <img alt="problema" title="#problema" src="./github/problema.png" />
+</h1>
 
 ## Pré-requisitos
 
@@ -85,6 +90,7 @@ digistarts
     └── settings.json
 
 ```
+
 ## Testes
 
 Para executar os testes unitários e de integração rode o comando:
