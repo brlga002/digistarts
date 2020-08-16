@@ -87,10 +87,11 @@ digistarts
 ```
 ## Testes
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/brlga002/digistarts.git
+para rodar os testes unitários e de integração rode o comando:
 
+```bash
+# Execulta os testes com jest
+$ npm test
 ```
 
 ## Tecnologias
@@ -108,7 +109,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 MIT License
 
-Copyright (c) <2020> <Gabriel Lima>
+Copyright (c) <2020> <Gabriel Fernandes Lima>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
