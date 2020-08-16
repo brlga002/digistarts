@@ -87,10 +87,9 @@ digistarts
 ```
 ## Testes
 
-para rodar os testes unitários e de integração rode o comando:
+Para executar os testes unitários e de integração rode o comando:
 
 ```bash
-# Execulta os testes com jest
 $ npm test
 ```
 
