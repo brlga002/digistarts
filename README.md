@@ -12,6 +12,7 @@ Teste para vaga Desenvolvedor Home Office na Digistarts
 - [Rodando o Back End](#rodando-o-back-end)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
 - [Tests](#testes)
+- [Demonstração da aplicação](#demonstração-da-aplicação) - [Rotas](#rotas)
 - [Tecnologias](#tecnologias)
 - [License](#license)
 - [Autor](#autor)
@@ -88,7 +89,7 @@ Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ulti
 - base_url/divisao
 - base_url/resto
 
-Todas as rotas aceitam o exigem os campos fistNumber e secondNumber:
+Todas as rotas exigem os campos fistNumber e secondNumber:
 
 ```bash
 {
