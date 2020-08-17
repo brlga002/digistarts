@@ -183,7 +183,7 @@ Quando fistNumber não é um binário:
 
 ```bash
 {
-  "error": "the fistNumber must be a binary"
+  "message": "the fistNumber must be a binary"
 }
 ```
 
@@ -191,7 +191,7 @@ Quando secondNumber não é um binário:
 
 ```bash
 {
-  "error": "the secondNumber must be a binary"
+  "message": "the secondNumber must be a binary"
 }
 ```
 
@@ -199,7 +199,7 @@ Quando fistNumber não esta entre 0 e 255:
 
 ```bash
 {
-  "error": "the fistNumber must be 0 to 255"
+  "message": "the fistNumber must be 0 to 255"
 }
 ```
 
@@ -207,7 +207,7 @@ Quando secondNumber não esta entre 0 e 255:
 
 ```bash
 {
-  "error": "the secondNumber must be 0 to 255"
+  "message": "the secondNumber must be 0 to 255"
 }
 ```
 
