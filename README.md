@@ -14,7 +14,7 @@ Teste para vaga Desenvolvedor Home Office na Digistarts
 - [Tests](#testes)
 - [Demonstração da aplicação](#demonstração-da-aplicação)
   - [Rotas](#rotas)
-  - [Exemplo de resposta](#exemplo-de-resposta)
+  - [Resposta](#resposta)
   - [Mensagens de Erro](#mensagens-de-erro)
 - [Tecnologias](#tecnologias)
 - [License](#license)
@@ -114,7 +114,7 @@ Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN váli
 }
 ```
 
-### Exemplo de resposta:
+### Resposta:
 
 Respota da solicitação na rota base_url/soma.
 
