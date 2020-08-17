@@ -8,7 +8,6 @@ describe('Error Handling', () => {
     });
 
     expect(response.status).toBe(400);
-    expect(response.body.error).toBe('Bad Request');
     expect(response.body.message).toBe('"fistNumber" is required');
   });
 
@@ -18,7 +17,6 @@ describe('Error Handling', () => {
     });
 
     expect(response.status).toBe(400);
-    expect(response.body.error).toBe('Bad Request');
     expect(response.body.message).toBe('"secondNumber" is required');
   });
 
@@ -29,7 +27,7 @@ describe('Error Handling', () => {
     });
 
     expect(response.status).toBe(400);
-    expect(response.body.error).toBe('the fistNumber must be 0 to 255');
+    expect(response.body.message).toBe('the fistNumber must be 0 to 255');
   });
 
   it('shold be error 2', async () => {
@@ -39,6 +37,6 @@ describe('Error Handling', () => {
     });
 
     expect(response.status).toBe(400);
-    expect(response.body.error).toBe('the secondNumber must be 0 to 255');
+    expect(response.body.message).toBe('the secondNumber must be 0 to 255');
   });
 });
