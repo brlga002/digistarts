@@ -229,11 +229,13 @@ Quando secondNumber é maior o fistNumber nas operações de subtração, divis�
 
 O frontend não fazia parte dos requisitos do projeto, entretanto para facilitar o teste da API ele esta disponível em: <https://digistarts.herokuapp.com>
 
-<a href="https://digistarts.herokuapp.com">
- <h1 align="center">
-  <img alt="frontend" title="#frontend" src="./github/frontend.png" />
+
+<h1 align="center">
+	<a href="https://digistarts.herokuapp.com">
+  		<img alt="frontend" title="#frontend" src="./github/frontend.png" />
+	</a>
 </h1>
-</a>
+
 
 ## Tecnologias
 
