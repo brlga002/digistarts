@@ -68,13 +68,18 @@ A estrutura de arquivos está da seguinte maneira:
 ```bash
 digistarts
 ├── .eslintrc.json
+├── frontend
+│   ├── sourceCodeFrontend
 ├── github
+│   ├── frontend.png
 │   └── problema.png
 ├── .gitignore
 ├── Insomnia_routers.json
 ├── jest.config.js
 ├── package.json
 ├── prettier.config.js
+├── public
+│   ├── stacticFrontendFiles
 ├── README.md
 ├── src
 │   ├── app.js
