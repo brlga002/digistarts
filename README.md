@@ -95,10 +95,15 @@ Na raiz do projeto existe o arquivo Insomnia_routers.json com exemplo de todas a
 A url do servidor será chamada no exemplo de Rotas abaixo de base_url
 
 - base_url/soma
+  Retorna soma entre dois números binários
 - base_url/subtracao
+  Retorna subtração entre dois números binários
 - base_url/multiplicacao
+  Retorna multiplicação entre dois números binários
 - base_url/divisao
+  Retorna sodivisão ma entre dois números binários
 - base_url/resto
+  Retorna resto da divisão entre dois números binários
 
 Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN válido:
 
@@ -114,10 +119,13 @@ Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN váli
 Respota da solicitação na rota base_url/soma.
 
 Corpo da solicitação:
+
+```bash
 {
 "fistNumber":"00000001",
 "secondNumber":"00000011"
 }
+```
 
 Resposta:
 
