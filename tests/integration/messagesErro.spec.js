@@ -39,4 +39,40 @@ describe('Error Handling', () => {
     expect(response.status).toBe(400);
     expect(response.body.message).toBe('the secondNumber must be 0 to 255');
   });
+
+  it('shold be request secondNumber cannot be greater than the fistNumber in /subtracao', async () => {
+    const response = await request(app).post('/subtracao').send({
+      fistNumber: '00000001',
+      secondNumber: '00000010',
+    });
+
+    expect(response.status).toBe(400);
+    expect(response.body.message).toBe(
+      'the second number cannot be greater than the first in this operation'
+    );
+  });
+
+  it('shold be request secondNumber cannot be greater than the fistNumber in /divisao', async () => {
+    const response = await request(app).post('/divisao').send({
+      fistNumber: '00000001',
+      secondNumber: '00000010',
+    });
+
+    expect(response.status).toBe(400);
+    expect(response.body.message).toBe(
+      'the second number cannot be greater than the first in this operation'
+    );
+  });
+
+  it('shold be request secondNumber cannot be greater than the fistNumber in /resto', async () => {
+    const response = await request(app).post('/resto').send({
+      fistNumber: '00000001',
+      secondNumber: '00000010',
+    });
+
+    expect(response.status).toBe(400);
+    expect(response.body.message).toBe(
+      'the second number cannot be greater than the first in this operation'
+    );
+  });
 });

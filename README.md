@@ -217,6 +217,14 @@ Quando secondNumber não esta entre 0 e 255:
 }
 ```
 
+Quando secondNumber é maior o fistNumber nas operações de subtração, divisão e resto da divisão :
+
+```bash
+{
+  "message": "the second number cannot be greater than the first in this operation"
+}
+```
+
 ### Frontend
 
 O frontend não fazia parte dos requisitos do projeto, entretanto para facilitar o teste da API ele esta disponível em: <https://digistarts.herokuapp.com>
