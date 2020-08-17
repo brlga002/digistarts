@@ -231,7 +231,7 @@ O frontend não fazia parte dos requisitos do projeto, entretanto para facilitar
 
 
 <h1 align="center">
-	<a href="https://digistarts.herokuapp.com">
+	<a href="https://digistarts.herokuapp.com"  title="Server app">
   		<img alt="frontend" title="#frontend" src="./github/frontend.png" />
 	</a>
 </h1>
@@ -284,7 +284,7 @@ SOFTWARE.
   <b>Gabriel Fernandes</b>
 </sub></a>
 
-<a href="https://github.com/brlga002" title="Gabriel">🚀</a>
+<a href="https://github.com/brlga002" title="Gabriel Github link">🚀</a>
 
 Feito com ❤️ por Gabriel Fernandes 🏽 Entre em contato!
 
