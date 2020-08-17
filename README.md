@@ -230,7 +230,7 @@ Quando secondNumber é maior o fistNumber nas operações de subtração, divis�
 O frontend não fazia parte dos requisitos do projeto, entretanto para facilitar o teste da API ele esta disponível em: <https://digistarts.herokuapp.com>
 
 <h1 align="center">
-	<a href="https://digistarts.herokuapp.com"  title="Server app" target="_blank">
+	<a href="https://digistarts.herokuapp.com"  title="Server app">
   		<img alt="frontend" title="#frontend" src="./github/frontend.png" />
 	</a>
 </h1>
@@ -275,15 +275,13 @@ SOFTWARE.
 
 ---
 
-
-
-[<img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/22845294?s=460&u=60e45878447fa5b46c2a5572134f69b8d5c92d91&v=4" width="100px;" alt=""/>
+<a href="https://github.com/brlga002">
+  <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/22845294?s=460&u=60e45878447fa5b46c2a5572134f69b8d5c92d91&v=4" width="100px;" alt=""/>
  <br />
- <sub>
-  <b>Gabriel Fernandes</b>
-</sub>](https://github.com/brlga002){:target="_blank" rel="noopener"}
+ <sub><b>Gabriel Fernandes</b></sub>
+</a>
 
-<a href="https://github.com/brlga002" title="Gabriel Github link" target="_blank">🚀</a>
+<a href="https://github.com/brlga002" title="Gabriel Github link">🚀</a>
 
 Feito com ❤️ por Gabriel Fernandes 🏽 Entre em contato!
 
