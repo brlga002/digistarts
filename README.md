@@ -275,12 +275,13 @@ SOFTWARE.
 
 ---
 
-<a href="https://github.com/brlga002" target="_blank">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/22845294?s=460&u=60e45878447fa5b46c2a5572134f69b8d5c92d91&v=4" width="100px;" alt=""/>
+
+
+[<img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/22845294?s=460&u=60e45878447fa5b46c2a5572134f69b8d5c92d91&v=4" width="100px;" alt=""/>
  <br />
  <sub>
   <b>Gabriel Fernandes</b>
-</sub></a>
+</sub>](https://github.com/brlga002){:target="_blank" rel="noopener"}
 
 <a href="https://github.com/brlga002" title="Gabriel Github link" target="_blank">🚀</a>
 
