@@ -12,7 +12,10 @@ Teste para vaga Desenvolvedor Home Office na Digistarts
 - [Rodando o Back End](#rodando-o-back-end)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
 - [Tests](#testes)
-- [Demonstração da aplicação](#demonstração-da-aplicação) - [Rotas](#rotas)
+- [Demonstração da aplicação](#demonstração-da-aplicação)
+  - [Rotas](#rotas)
+  - [Exemplo de resposta](#exemplo-de-resposta)
+  - [Mensagens de Erro](#mensagens-de-erro)
 - [Tecnologias](#tecnologias)
 - [License](#license)
 - [Autor](#autor)
@@ -106,15 +109,25 @@ Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN váli
 }
 ```
 
-Exemplo de resposta:
+### Exemplo de resposta:
+
+Respota da solicitação na rota base_url/soma.
+
+Corpo da solicitação:
+{
+"fistNumber":"00000001",
+"secondNumber":"00000011"
+}
+
+Resposta:
 
 ```bash
 {
-	"00010010"
+	"00000100"
 }
 ```
 
-### Mensagem de Erro:
+### Mensagens de Erro:
 
 Quando não informado um JSON válido
 
