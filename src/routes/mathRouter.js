@@ -1,4 +1,5 @@
 const express = require('express');
+
 const routes = express.Router();
 const { celebrate, Joi, Segments } = require('celebrate');
 const mathController = require('../controllers/mathController');

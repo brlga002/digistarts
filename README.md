@@ -2,16 +2,20 @@
 
 Teste para vaga Desenvolvedor Home Office na Digistarts
 
-## Tabela de Conteudo
+## Tabela de Conteúdo
 
 <!--ts-->
 
-- [Tabela de Conteudo](#tabela-de-conteudo)
+- [Tabela de Conteúdo](#tabela-de-conteudo)
 - [Descrição](#Descrição)
-- [Pre Requisitos](#pré-requisitos)
+- [Pré-requisitos](#pré-requisitos)
 - [Rodando o Back End](#rodando-o-back-end)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
 - [Tests](#testes)
+- [Demonstração da aplicação](#demonstração-da-aplicação)
+  - [Rotas](#rotas)
+  - [Resposta](#resposta)
+  - [Mensagens de Erro](#mensagens-de-erro)
 - [Tecnologias](#tecnologias)
 - [License](#license)
 - [Autor](#autor)
@@ -33,7 +37,7 @@ Deve-se aceitar os operadores abaixo:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ## Rodando o Back End
 
@@ -62,32 +66,7 @@ A estrutura de arquivos está da seguinte maneira:
 
 ```bash
 digistarts
-├── .eslintrc.json
-├── .gitignore
-├── Insomnia_routers.json
-├── jest.config.js
-├── package.json
-├── prettier.config.js
-├── README.md
-├── src
-│   ├── app.js
-│   ├── controllers
-│   │   └── mathController.js
-│   ├── index.js
-│   ├── middleware
-│   │   └── allowDigits.js
-│   ├── routes
-│   │   └── mathRouter.js
-│   └── utils
-│       └── leftPad.js
-├── tests
-│   ├── integration
-│   │   ├── messagesErro.spec.js
-│   │   └── operations.spec.js
-│   └── unit
-│       └── gerateLeftPad.spec.js
-└── .vscode
-    └── settings.json
+
 
 ```
 
@@ -97,6 +76,113 @@ Para executar os testes unitários e de integração rode o comando:
 
 ```bash
 $ npm test
+```
+
+## Demonstração da aplicação
+
+Esta API aceita o método POST solicitação para se comunicar e códigos de resposta HTTP para identificar o status e os erros.
+
+Todas as respostas vêm em JSON padrão.
+
+Todas as solicitações devem incluir um content-typede application/json e o corpo deve ser um JSON válido.
+
+Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online <https://digistarts.herokuapp.com>.
+
+Na raiz do projeto existe o arquivo Insomnia_routers.json com exemplo de todas as rotas [Insomnia Core](https://insomnia.rest/download/).
+
+### Rotas
+
+A url do servidor será chamada no exemplo de Rotas abaixo de base_url
+
+- base_url/soma
+  Retorna soma entre dois números binários
+- base_url/subtracao
+  Retorna subtração entre dois números binários
+- base_url/multiplicacao
+  Retorna multiplicação entre dois números binários
+- base_url/divisao
+  Retorna sodivisão ma entre dois números binários
+- base_url/resto
+  Retorna resto da divisão entre dois números binários
+
+Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN válido:
+
+```bash
+{
+	"fistNumber":"10000000",
+	"secondNumber":"100000000"
+}
+```
+
+### Resposta:
+
+Respota da solicitação na rota base_url/soma.
+
+Corpo da solicitação:
+
+```bash
+{
+"fistNumber":"00000001",
+"secondNumber":"00000011"
+}
+```
+
+Resposta:
+
+```bash
+{
+	"00000100"
+}
+```
+
+### Mensagens de Erro:
+
+Quando não informado um JSON válido
+
+```bash
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": "\"fistNumber\" is required",
+  "validation": {
+    "source": "body",
+    "keys": [
+      "fistNumber"
+    ]
+  }
+}
+```
+
+Quando fistNumber não é um binário:
+
+```bash
+{
+  "error": "the fistNumber must be a binary"
+}
+```
+
+Quando secondNumber não é um binário:
+
+```bash
+{
+  "error": "the secondNumber must be a binary"
+}
+```
+
+Quando fistNumber não esta entre 0 e 255:
+
+```bash
+{
+  "error": "the fistNumber must be 0 to 255"
+}
+```
+
+Quando secondNumber não esta entre 0 e 255:
+
+```bash
+{
+  "error": "the secondNumber must be 0 to 255"
+}
 ```
 
 ## Tecnologias
