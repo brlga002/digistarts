@@ -283,7 +283,7 @@ SOFTWARE.
 
 <a href="https://github.com/brlga002" title="Gabriel Github link">🚀</a>
 
-Feito com ❤️ por Gabriel Fernandes 🏽 Entre em contato!
+Feito com ❤️ por Gabriel Fernandes Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-lima-983701141)](https://www.linkedin.com/in/gabriel-lima-983701141)
 [![Gmail Badge](https://img.shields.io/badge/-gabriel@devmanaus.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel@devmanaus.com)](mailto:gabriel@devmanaus.com)
