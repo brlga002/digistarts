@@ -2,13 +2,13 @@
 
 Teste para vaga Desenvolvedor Home Office na Digistarts
 
-## Tabela de Conteudo
+## Tabela de Conteúdo
 
 <!--ts-->
 
-- [Tabela de Conteudo](#tabela-de-conteudo)
+- [Tabela de Conteúdo](#tabela-de-conteudo)
 - [Descrição](#Descrição)
-- [Pre Requisitos](#pré-requisitos)
+- [Pré-requisitos](#pré-requisitos)
 - [Rodando o Back End](#rodando-o-back-end)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
 - [Tests](#testes)
@@ -37,7 +37,7 @@ Deve-se aceitar os operadores abaixo:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ## Rodando o Back End
 
@@ -169,7 +169,7 @@ Quando secondNumber não é um binário:
 }
 ```
 
-Quando fistNumber e um numero que não esta entre 0 e 255:
+Quando fistNumber não esta entre 0 e 255:
 
 ```bash
 {
@@ -177,7 +177,7 @@ Quando fistNumber e um numero que não esta entre 0 e 255:
 }
 ```
 
-Quando secondNumber e um numero que não esta entre 0 e 255:
+Quando secondNumber não esta entre 0 e 255:
 
 ```bash
 {
