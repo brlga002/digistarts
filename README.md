@@ -214,7 +214,11 @@ Quando secondNumber não esta entre 0 e 255:
 
 ### Frontend
 
-O frontend não fazia parte dos requisitos do projeto, Entretanto para teste da API ele esta disponível em: <https://digistarts.herokuapp.com>
+O frontend não fazia parte dos requisitos do projeto, entretanto para facilitar o teste da API ele esta disponível em: <https://digistarts.herokuapp.com>
+
+<h1 align="center">
+  <img alt="frontend" title="#frontend" src="./github/frontend.png" />
+</h1>
 
 ## Tecnologias
 
@@ -226,6 +230,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Jest](https://jestjs.io/docs/en/getting-started)
 - [SuperTest](https://www.npmjs.com/package/supertest)
 - [Insomnia Core](https://insomnia.rest/download/)
+- [React](https://devdocs.io/react/)
 
 ## License
 
@@ -258,7 +263,11 @@ SOFTWARE.
 <a href="https://github.com/brlga002">
  <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/22845294?s=460&u=60e45878447fa5b46c2a5572134f69b8d5c92d91&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Gabriel Fernandes</b></sub></a> <a href="https://github.com/brlga002" title="Gabriel">🚀</a>
+ <sub>
+  <b>Gabriel Fernandes</b>
+</sub></a>
+
+<a href="https://github.com/brlga002" title="Gabriel">🚀</a>
 
 Feito com ❤️ por Gabriel Fernandes 👋🏽 Entre em contato!
 
