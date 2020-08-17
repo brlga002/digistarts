@@ -77,11 +77,19 @@ $ npm test
 
 ## Demonstração da aplicação
 
-Esta API usa POST solicitação para se comunicar e códigos de resposta HTTP para identificar o status e os erros. Todas as respostas vêm em JSON padrão. Todas as solicitações devem incluir um content-typede application/json e o corpo deve ser um JSON válido.
+Esta API aceita o método POST solicitação para se comunicar e códigos de resposta HTTP para identificar o status e os erros.
 
-Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online <https://digistarts.herokuapp.com>. A url do servidor será chamada no exemplo de Rotas base_url
+Todas as respostas vêm em JSON padrão.
+
+Todas as solicitações devem incluir um content-typede application/json e o corpo deve ser um JSON válido.
+
+Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online <https://digistarts.herokuapp.com>.
+
+Na raiz do projeto existe o arquivo Insomnia_routers.json com exemplo de todas as rotas [Insomnia Core](https://insomnia.rest/download/).
 
 ### Rotas
+
+A url do servidor será chamada no exemplo de Rotas abaixo de base_url
 
 - base_url/soma
 - base_url/subtracao
@@ -98,7 +106,7 @@ Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN váli
 }
 ```
 
-Exemplo de resposta
+Exemplo de resposta:
 
 ```bash
 {
