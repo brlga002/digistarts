@@ -66,8 +66,34 @@ A estrutura de arquivos está da seguinte maneira:
 
 ```bash
 digistarts
-
-
+├── .eslintrc.json
+├── github
+│   └── problema.png
+├── .gitignore
+├── Insomnia_routers.json
+├── jest.config.js
+├── package.json
+├── prettier.config.js
+├── README.md
+├── src
+│   ├── app.js
+│   ├── controllers
+│   │   └── mathController.js
+│   ├── index.js
+│   ├── middleware
+│   │   └── allowDigits.js
+│   ├── routes
+│   │   └── mathRouter.js
+│   └── utils
+│       └── leftPad.js
+├── tests
+│   ├── integration
+│   │   ├── messagesErro.spec.js
+│   │   └── operations.spec.js
+│   └── unit
+│       └── gerateLeftPad.spec.js
+└── .vscode
+    └── settings.json
 ```
 
 ## Testes
@@ -101,9 +127,9 @@ A url do servidor será chamada no exemplo de Rotas abaixo de base_url
 - base_url/multiplicacao
   Retorna multiplicação entre dois números binários
 - base_url/divisao
-  Retorna sodivisão ma entre dois números binários
+  Retorna divisão entre dois números binários
 - base_url/resto
-  Retorna resto da divisão entre dois números binários
+  Retorna o resto da divisão entre dois números binários
 
 Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN válido:
 
