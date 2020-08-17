@@ -79,7 +79,7 @@ $ npm test
 
 Esta API usa POST solicitação para se comunicar e códigos de resposta HTTP para identificar o status e os erros. Todas as respostas vêm em JSON padrão. Todas as solicitações devem incluir um content-typede application/json e o corpo deve ser um JSON válido.
 
-Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online na hospedagem heroku <https://digistarts.herokuapp.com>. o endereço do servidor será chamado no exemplo de Rotas base_url
+Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ultilizar o servidor online <https://digistarts.herokuapp.com>. A url do servidor será chamada no exemplo de Rotas base_url
 
 ### Rotas
 
@@ -89,12 +89,70 @@ Para testar o endpoint iniciar um servidor local <http://localhost:3000> ou ulti
 - base_url/divisao
 - base_url/resto
 
-Todas as rotas exigem os campos fistNumber e secondNumber:
+Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN válido:
 
 ```bash
 {
 	"fistNumber":"10000000",
 	"secondNumber":"100000000"
+}
+```
+
+Exemplo de resposta
+
+```bash
+{
+	"00010010"
+}
+```
+
+### Mensagem de Erro:
+
+Quando não informado um JSON válido
+
+```bash
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": "\"fistNumber\" is required",
+  "validation": {
+    "source": "body",
+    "keys": [
+      "fistNumber"
+    ]
+  }
+}
+```
+
+Quando fistNumber não é um binário:
+
+```bash
+{
+  "error": "the fistNumber must be a binary"
+}
+```
+
+Quando secondNumber não é um binário:
+
+```bash
+{
+  "error": "the secondNumber must be a binary"
+}
+```
+
+Quando fistNumber e um numero que não esta entre 0 e 255:
+
+```bash
+{
+  "error": "the fistNumber must be 0 to 255"
+}
+```
+
+Quando secondNumber e um numero que não esta entre 0 e 255:
+
+```bash
+{
+  "error": "the secondNumber must be 0 to 255"
 }
 ```
 
