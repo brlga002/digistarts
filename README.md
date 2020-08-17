@@ -148,7 +148,7 @@ Todas as rotas exigem os campos fistNumber e secondNumber. Exemplo de JOSN váli
 
 ### Resposta:
 
-Respota da solicitação na rota base_url/soma.
+Resposta da solicitação na rota base_url/soma.
 
 Corpo da solicitação:
 
