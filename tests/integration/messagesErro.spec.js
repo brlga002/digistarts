@@ -20,7 +20,7 @@ describe('Error Handling', () => {
     expect(response.body.message).toBe('"secondNumber" is required');
   });
 
-  it('shold be error', async () => {
+  it('shold be request fistNumber between 0 and 255', async () => {
     const response = await request(app).post('/soma').send({
       fistNumber: '100000000',
       secondNumber: '00000011',
@@ -30,7 +30,7 @@ describe('Error Handling', () => {
     expect(response.body.message).toBe('the fistNumber must be 0 to 255');
   });
 
-  it('shold be error 2', async () => {
+  it('shold be request secondNumber between 0 and 255', async () => {
     const response = await request(app).post('/soma').send({
       fistNumber: '00000011',
       secondNumber: '100000000',
